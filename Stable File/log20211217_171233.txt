@@ -1,0 +1,30 @@
+2021.12.17:17:12:33.847: main Phoenix Miner 5.9d Windows/msvc - Release build
+2021.12.17:17:12:33.847: main Cmd line: -pool ssl://eu1-etc.ethermine.org:5555 -wal 0xd953745c40ab9d7ccfb7bb89485f042d35edd439.ORNEK -coin etc 
+2021.12.17:17:12:34.679: main CUDA version: 10.0, CUDA runtime: 8.0
+2021.12.17:17:12:34.681: main NVML library initialized
+2021.12.17:17:12:34.690: main Nvidia driver version: 431.84
+2021.12.17:17:12:34.905: main No OpenCL platforms found
+2021.12.17:17:12:34.905: main Available GPUs for mining:
+2021.12.17:17:12:34.905: main GPU1: MSI GeForce GTX 1050 Ti with Max-Q Design (pcie 1), CUDA cap. 6.1, 4 GB VRAM, 6 CUs
+2021.12.17:17:12:35.488: main Eth: the pool list contains 1 pool (1 from command-line)
+2021.12.17:17:12:35.488: main Eth: primary pool: ssl://eu1-etc.ethermine.org:5555
+2021.12.17:17:12:35.488: main Starting GPU mining
+2021.12.17:17:12:35.616: wdog Starting watchdog thread
+2021.12.17:17:12:36.066: main Eth: Connecting to ethash pool ssl://eu1-etc.ethermine.org:5555 (proto: EthProxy)
+2021.12.17:17:12:36.067: main GPU1: 29C
+2021.12.17:17:12:36.149: eths Eth: Connected to SSL ethash pool eu1-etc.ethermine.org:5555 (172.65.232.146)
+2021.12.17:17:12:36.281: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.12.17:17:12:36.353: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"eth1.0","params":["0xd953745c40ab9d7ccfb7bb89485f042d35edd439.ORNEK"]}
+
+2021.12.17:17:12:36.483: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.12.17:17:12:36.484: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","params":[]}
+
+2021.12.17:17:12:36.619: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xee352ac80c1163ab561080a5ec2dd00123892041d82d9db2997e7249d4f7fa11","0x8803ddbfaafcd3b7339dc877f66d02bec9f2720be85baf3591da47492f34f463","0x0000000112e0be826d694b2e62d01511f12a6061fbaec8bc02357593e70e52ba","0xd7ddeb"]}
+2021.12.17:17:12:36.619: eths Eth: New job #ee352ac8 from ssl://eu1-etc.ethermine.org:5555; diff: 4000MH
+2021.12.17:17:12:36.620: GPU1 GPU1: Starting up... (0)
+2021.12.17:17:12:36.620: GPU1 GPU1: Generating etchash light cache for epoch #235
+2021.12.17:17:12:38.642: GPU1 Light cache generated in 2.0 s (22.5 MB/s)
+2021.12.17:17:12:38.643: GPU1 CUDART error in CudaProgram.cu:28 : unknown error (30)
+2021.12.17:17:12:38.643: GPU1 GPU1 initMiner error: unknown error
+2021.12.17:17:12:38.643: wdog Fatal error detected. Restarting.
+2021.12.17:17:12:41.187: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
